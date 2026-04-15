@@ -145,7 +145,7 @@ plt.plot(
     marker="o"
 )
 
-# --- VALUE LABELS (only forecast to avoid clutter) ---
+# --- VALUE LABELS ---
 for i in range(len(test)):
     plt.text(
         test["date"].iloc[i],
